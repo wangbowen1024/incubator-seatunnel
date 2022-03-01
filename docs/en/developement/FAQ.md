@@ -351,8 +351,8 @@ The plugin can be completely independent with SeaTunnel project, in which you ca
 
 Scala, maven, sbt, gradle, whatever you want. This is also the way we recommend developers to develop plugins.
 
-**FAQ 23.** Import project, compiler has exception "class not found `org.apache.seatunnel.shade.com.typesafe.config.Config`"
+**FAQ 23.** Import project, compiler has exception "class not found `com.typesafe.config.Config`"
 
 Run `mvn install` first.
 
-Because in the `seatunnel-config/seatunnel-config-base` subproject, package `com.typesafe.config` has been relocated to `org.apache.seatunnel.shade.com.typesafe.config` and install to maven local repository in subproject `seatunnel-config/seatunnel-config-shade` .
+Because in the `seatunnel-config/seatunnel-config-base` subproject, package `com.typesafe.config` has been relocated to `com.typesafe.config` and install to maven local repository in subproject `seatunnel-config/seatunnel-config-shade` .

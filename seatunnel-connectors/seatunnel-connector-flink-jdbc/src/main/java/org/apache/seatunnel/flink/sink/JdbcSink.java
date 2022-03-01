@@ -22,7 +22,7 @@ import org.apache.seatunnel.common.config.CheckResult;
 import org.apache.seatunnel.flink.FlinkEnvironment;
 import org.apache.seatunnel.flink.stream.FlinkStreamSink;
 
-import org.apache.seatunnel.shade.com.typesafe.config.Config;
+import com.typesafe.config.Config;
 
 import org.apache.flink.api.common.typeinfo.TypeInformation;
 import org.apache.flink.connector.jdbc.JdbcConnectionOptions;

@@ -19,8 +19,8 @@ package org.apache.seatunnel.spark;
 
 import org.apache.seatunnel.apis.BaseSink;
 
-import org.apache.seatunnel.shade.com.typesafe.config.Config;
-import org.apache.seatunnel.shade.com.typesafe.config.ConfigFactory;
+import com.typesafe.config.Config;
+import com.typesafe.config.ConfigFactory;
 
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;

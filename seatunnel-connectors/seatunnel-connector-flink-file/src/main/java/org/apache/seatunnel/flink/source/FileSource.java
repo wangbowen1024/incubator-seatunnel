@@ -23,7 +23,7 @@ import org.apache.seatunnel.flink.FlinkEnvironment;
 import org.apache.seatunnel.flink.batch.FlinkBatchSource;
 import org.apache.seatunnel.flink.util.SchemaUtil;
 
-import org.apache.seatunnel.shade.com.typesafe.config.Config;
+import com.typesafe.config.Config;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.avro.Schema;

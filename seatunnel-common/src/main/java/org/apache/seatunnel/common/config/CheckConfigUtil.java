@@ -17,7 +17,7 @@
 
 package org.apache.seatunnel.common.config;
 
-import org.apache.seatunnel.shade.com.typesafe.config.Config;
+import com.typesafe.config.Config;
 
 import java.util.Arrays;
 import java.util.LinkedList;

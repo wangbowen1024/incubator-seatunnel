@@ -20,14 +20,12 @@ package org.apache.seatunnel.spark.batch;
 import org.apache.seatunnel.common.config.CheckResult;
 import org.apache.seatunnel.common.config.ConfigRuntimeException;
 import org.apache.seatunnel.env.Execution;
+import com.typesafe.config.Config;
+import com.typesafe.config.ConfigFactory;
 import org.apache.seatunnel.spark.BaseSparkSink;
 import org.apache.seatunnel.spark.BaseSparkSource;
 import org.apache.seatunnel.spark.BaseSparkTransform;
 import org.apache.seatunnel.spark.SparkEnvironment;
-
-import org.apache.seatunnel.shade.com.typesafe.config.Config;
-import org.apache.seatunnel.shade.com.typesafe.config.ConfigFactory;
-
 import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 

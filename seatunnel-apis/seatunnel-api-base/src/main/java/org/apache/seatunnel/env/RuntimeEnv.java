@@ -21,6 +21,7 @@ import org.apache.seatunnel.plugin.Plugin;
 
 /**
  * engine related runtime environment
+ * 引擎相关的运行时环境
  */
 public interface RuntimeEnv extends Plugin<Boolean> {
 

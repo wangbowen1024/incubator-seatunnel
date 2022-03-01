@@ -23,8 +23,8 @@ import static org.apache.seatunnel.common.config.TypesafeConfigUtils.hasSubConfi
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThrows;
 
-import org.apache.seatunnel.shade.com.typesafe.config.Config;
-import org.apache.seatunnel.shade.com.typesafe.config.ConfigFactory;
+import com.typesafe.config.Config;
+import com.typesafe.config.ConfigFactory;
 
 import org.junit.Assert;
 import org.junit.Test;

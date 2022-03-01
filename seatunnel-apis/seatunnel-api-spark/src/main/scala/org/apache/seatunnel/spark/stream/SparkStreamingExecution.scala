@@ -17,7 +17,7 @@
 package org.apache.seatunnel.spark.stream
 
 import org.apache.seatunnel.common.config.CheckResult
-import org.apache.seatunnel.shade.com.typesafe.config.{Config, ConfigFactory}
+import com.typesafe.config.{Config, ConfigFactory}
 import org.apache.seatunnel.env.Execution
 import org.apache.seatunnel.plugin.Plugin
 import org.apache.seatunnel.spark.batch.SparkBatchExecution

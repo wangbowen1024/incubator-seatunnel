@@ -2,10 +2,10 @@
  *   Copyright (C) 2011-2012 Typesafe Inc. <http://typesafe.com>
  */
 
-package org.apache.seatunnel.shade.com.typesafe.config.impl;
+package com.typesafe.config.impl;
 
-import org.apache.seatunnel.shade.com.typesafe.config.ConfigException;
-import org.apache.seatunnel.shade.com.typesafe.config.ConfigParseOptions;
+import com.typesafe.config.ConfigException;
+import com.typesafe.config.ConfigParseOptions;
 
 import java.util.Iterator;
 import java.util.List;

@@ -30,10 +30,10 @@ import org.apache.seatunnel.spark.stream.SparkStreamingExecution;
 import org.apache.seatunnel.utils.Engine;
 import org.apache.seatunnel.utils.PluginType;
 
-import org.apache.seatunnel.shade.com.typesafe.config.Config;
-import org.apache.seatunnel.shade.com.typesafe.config.ConfigFactory;
-import org.apache.seatunnel.shade.com.typesafe.config.ConfigRenderOptions;
-import org.apache.seatunnel.shade.com.typesafe.config.ConfigResolveOptions;
+import com.typesafe.config.Config;
+import com.typesafe.config.ConfigFactory;
+import com.typesafe.config.ConfigRenderOptions;
+import com.typesafe.config.ConfigResolveOptions;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -20,8 +20,8 @@ package org.apache.seatunnel.spark;
 import org.apache.seatunnel.common.config.CheckResult;
 import org.apache.seatunnel.env.RuntimeEnv;
 
-import org.apache.seatunnel.shade.com.typesafe.config.Config;
-import org.apache.seatunnel.shade.com.typesafe.config.ConfigFactory;
+import com.typesafe.config.Config;
+import com.typesafe.config.ConfigFactory;
 
 import org.apache.spark.SparkConf;
 import org.apache.spark.sql.SparkSession;

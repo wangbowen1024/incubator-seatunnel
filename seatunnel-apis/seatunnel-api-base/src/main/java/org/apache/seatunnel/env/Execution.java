@@ -26,11 +26,13 @@ import java.util.List;
 
 /**
  * the SeaTunnel job's execution context
+ * SeaTunnel 作业的执行上下文
  */
 public interface Execution<SR extends BaseSource, TF extends BaseTransform, SK extends BaseSink> extends Plugin<Void> {
 
     /**
      * start to execute the SeaTunnel job
+     * 开始执行 SeaTunnel 作业
      *
      * @param sources    source plugin list
      * @param transforms transform plugin list

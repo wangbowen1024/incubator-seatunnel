@@ -19,12 +19,13 @@ package org.apache.seatunnel.plugin;
 
 import org.apache.seatunnel.common.config.CheckResult;
 
-import org.apache.seatunnel.shade.com.typesafe.config.Config;
+import com.typesafe.config.Config;
 
 import java.io.Serializable;
 
 /**
  * a base interface indicates belonging to SeaTunnel.
+ * 基础接口表示属于 SeaTunnel。
  */
 public interface Plugin<T> extends Serializable {
     String RESULT_TABLE_NAME = "result_table_name";

@@ -21,8 +21,8 @@ import static org.apache.seatunnel.common.config.CheckConfigUtil.checkAllExists;
 import static org.apache.seatunnel.common.config.CheckConfigUtil.checkAtLeastOneExists;
 import static org.apache.seatunnel.common.config.CheckConfigUtil.mergeCheckResults;
 
-import org.apache.seatunnel.shade.com.typesafe.config.Config;
-import org.apache.seatunnel.shade.com.typesafe.config.ConfigFactory;
+import com.typesafe.config.Config;
+import com.typesafe.config.ConfigFactory;
 
 import org.junit.Assert;
 import org.junit.Test;

@@ -17,8 +17,8 @@
 
 package org.apache.seatunnel.flink.util;
 
-import org.apache.seatunnel.shade.com.typesafe.config.Config;
-import org.apache.seatunnel.shade.com.typesafe.config.ConfigValue;
+import com.typesafe.config.Config;
+import com.typesafe.config.ConfigValue;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;

@@ -18,7 +18,7 @@ package org.apache.seatunnel.spark.sink
 
 import com.redislabs.provider.redis.{RedisConfig, RedisEndpoint, toRedisContext}
 import org.apache.seatunnel.common.config.{CheckConfigUtil, CheckResult}
-import org.apache.seatunnel.shade.com.typesafe.config.ConfigFactory
+import com.typesafe.config.ConfigFactory
 import org.apache.seatunnel.spark.SparkEnvironment
 import org.apache.seatunnel.spark.batch.SparkBatchSink
 import org.apache.spark.SparkContext
